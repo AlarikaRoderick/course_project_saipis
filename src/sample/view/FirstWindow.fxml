@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="810.0" style="-fx-background-color: ffffff;" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.Controller">
+   <children>
+      <AnchorPane layoutY="-2.0" prefHeight="73.0" prefWidth="810.0" style="-fx-background-color: #73b9e2;">
+         <children>
+            <Label layoutX="63.0" layoutY="23.0" text="Пользователь">
+               <font>
+                  <Font name="Times New Roman" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="324.0" layoutY="23.0" text="Администратор">
+               <font>
+                  <Font name="Times New Roman" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="614.0" layoutY="23.0" text="Регистрация">
+               <font>
+                  <Font name="Times New Roman" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="259.0" layoutY="71.0" prefHeight="328.0" prefWidth="4.0" style="-fx-background-color: #c7ccd6#c7ccd6;" />
+      <AnchorPane layoutX="546.0" layoutY="71.0" prefHeight="330.0" prefWidth="4.0" style="-fx-background-color: #c7ccd6#c7ccd6;" />
+      <TextField fx:id="LoginField" layoutX="47.0" layoutY="127.0" prefHeight="31.0" prefWidth="167.0" promptText="Логин" />
+      <TextField fx:id="AdminLoginField" layoutX="325.0" layoutY="128.0" prefHeight="31.0" prefWidth="167.0" promptText="Логин" />
+      <TextField fx:id="NewLoginField" layoutX="590.0" layoutY="126.0" prefHeight="33.0" prefWidth="167.0" promptText="Введите новый логин" />
+      <PasswordField fx:id="PasswordField" layoutX="47.0" layoutY="187.0" prefHeight="31.0" prefWidth="167.0" promptText="Пароль" />
+      <PasswordField fx:id="AdminPasswordField" layoutX="323.0" layoutY="187.0" prefHeight="31.0" prefWidth="169.0" promptText="Пароль" />
+      <PasswordField fx:id="NewPasswordField" layoutX="592.0" layoutY="187.0" prefHeight="31.0" prefWidth="167.0" promptText="Введите новый пароль" />
+      <Button fx:id="EnterButton" layoutX="84.0" layoutY="270.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="94.0" text="Войти">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="AdminEnterButton" layoutX="361.0" layoutY="270.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="94.0" text="Войти">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="SignUpButton" layoutX="580.0" layoutY="270.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="207.0" text="Зарегистрироваться">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
